@@ -1,15 +1,22 @@
 import React from 'react';
 import './App.css';
-import MetabolicRateForm from './MetabolicRateForm';  // Import the MetabolicRateForm component
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './containers/HomePage';
+import LoginPage from './containers/LoginPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Metabolic Rate Calculator</h1>
-        <MetabolicRateForm />  {/* Render the component here */}
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <header className="App-header">
+          <h1>Metabolic Rate Calculator</h1>
+          <Routes>
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/" element={<HomePage />} />
+          </Routes>
+        </header>
+      </div>
+    </Router>
   );
 }
 

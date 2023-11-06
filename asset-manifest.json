@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sherylchenn/MetaboMe/static/css/main.073c9b0a.css",
+    "main.js": "/sherylchenn/MetaboMe/static/js/main.8f9df423.js",
+    "static/js/496.13a8aa01.chunk.js": "/sherylchenn/MetaboMe/static/js/496.13a8aa01.chunk.js",
+    "index.html": "/sherylchenn/MetaboMe/index.html",
+    "main.073c9b0a.css.map": "/sherylchenn/MetaboMe/static/css/main.073c9b0a.css.map",
+    "main.8f9df423.js.map": "/sherylchenn/MetaboMe/static/js/main.8f9df423.js.map",
+    "496.13a8aa01.chunk.js.map": "/sherylchenn/MetaboMe/static/js/496.13a8aa01.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.8f9df423.js"
+  ]
+}
